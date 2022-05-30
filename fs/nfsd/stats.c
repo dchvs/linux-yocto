@@ -29,6 +29,8 @@
 
 #include "nfsd.h"
 
+#include "ktf.h"
+
 struct nfsd_stats	nfsdstats;
 struct svc_stat		nfsd_svcstats = {
 	.program	= &nfsd_program,
