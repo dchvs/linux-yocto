@@ -4,6 +4,7 @@
 #
 
 ccflags-y += -I$(src)			# needed for trace events
+ccflags-y += -I$(KTF_KERNEL)
 
 obj-$(CONFIG_NFSD)	+= nfsd.o
 
